@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:prt="http://schemas.android.com/apk/res-auto"
+    tools:context="com.xiaomili.mypulltorefresh.MainActivity">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_to_refresh"
+        prt:ptrDrawable="@drawable/indicator_arrow"
+        prt:ptrAnimationStyle="flip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</RelativeLayout>
